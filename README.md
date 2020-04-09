@@ -10,7 +10,7 @@ Tim Terwijn
 ...
 
 ### Logo
-...
+![logo](/docs/img/logo.png)
 
 ### Table of contents
 * [Install guide](#install-guide)  
@@ -21,6 +21,35 @@ Tim Terwijn
 * [Progressive enhancement](#progressive-enhancement)  
 * [Feature detection](#feature-detection)  
 * [Road map (and feedback)](#Road-map-(and-feedback))  
+
+### Progress book
+This project is divided in multiple cycles. Each cylce contains three phases which are called togeter Think, Make and check.  
+  
+![think-make-check](/docs/img/think-make-check.png)
+
+#### Week 1
+##### Think
+For the first think phase I thought about the problems Marie has. She is Deaf so i assume she has problems listening to things on the web and also to understand certain behavior of people that can listen to sound. I think I am able to fix her problem by making website with a iframe where she can browse websites and when some audio is played it apears on her screen. I want to make use of gifs/images to show Marie the things she does not understand with certain words (the fun part of my project).
+
+##### Make
+Before the interview I made a small demo that I can present my idea to Marie.
+![prototype1](/docs/img/prototype1.png)
+
+
+##### Check
+
+After that I showed my demo to Marie but it was quite the challange to show my work and talk at the same time, because Marie could not look at my emotions, look at the translator and see my work. So for the next time I want to talk first and show my demo there after in small chunks. 
+
+![demo](/docs/img/demo1.png)
+
+This is the feedback I had received from Maried: 
+* She did not like the idea of an screen in a screen (iframe), she would like to have use her browser for browsing and use my application in the background. My solution for this is to make the application mobile first so that marie can look at her phone during a potcast (or any sound at all.).
+
+* 
+
+
+
+
 
 ### Install guide
 #### Requirements
