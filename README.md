@@ -22,7 +22,7 @@ Tim Terwijn
 * [Feature detection](#feature-detection)
 * [Road map (and feedback)](#Road-map-(and-feedback))
 
-### Progress book
+### Progress
 This project is divided in multiple cycles. Each cycle contains three phases which are called together Think, Make and check.
 
 ![think-make-check](/docs/img/think-make-check.png)
