@@ -12,7 +12,7 @@ Hoofdletters lelijk
 rood = stop gevaarlijk
 paars of groen geen idee, kijk hier mee uit.
 
-vertel eerst laat dan zien (next demo)
+vertel eerst laat dan zien
 
 
 -------------------------------------------------------------------------------------
@@ -24,7 +24,7 @@ geen euuu an aahh en tak
 emoties zijn belangrijk
 
 ideeen:
-add screenreader met fotos voor doven als er tijd over is
+add screenreader voor doven als er tijd over is
 geen tekst bij de mic, maar images en gebare taal
 github wiki
 bronnen
