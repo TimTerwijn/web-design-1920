@@ -8,17 +8,22 @@ catch(e) {
     $('.app').hide();
 }
 
+const output = document.getElementById("output");
+
 recognition.onstart = function() { 
-    instructions.text('Voice recognition activated. Try speaking into the microphone.');
+    // output.innerHTML ='Voice recognition activated. Try speaking into the microphone.';
+    alert('Voice recognition activated. Try speaking into the microphone.');
 }
 
 recognition.onspeechend = function() {
-    instructions.text('You were quiet for a while so voice recognition turned itself off.');
+    alert('You were quiet for a while so voice recognition turned itself off.');
+    // output.innerHTML ='You were quiet for a while so voice recognition turned itself off.';
 }
 
 recognition.onerror = function(event) {
     if(event.error == 'no-speech') {
-        instructions.text('No speech was detected. Try again.');  
+        // output.innerHTML = 'No speech was detected. Try again.';  
+        alert('No speech was detected. Try again.');        
     };
 }
 
@@ -29,7 +34,7 @@ recognition.onresult = function(event) {
     const output = document.getElementById("output");
 
     var current = event.resultIndex;
-    output.innerHTML(current);
+    alert(current);
     
     // Get a transcript of what was said.
     var transcript = event.results[current][0].transcript;
