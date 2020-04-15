@@ -56,7 +56,32 @@ Marie told us today that Deaf people have their own culture and are not speaking
 It made me also think about my fun part. If Marie and other Deaf people prefer images and sign language over regular text. It would be cool to replace the subjects and maybe other parts of a sentence with images and/or an image of sign language.
 
 #### Make
-WIP**
+I made a simple application with a speech to text functionality to test if my project is doable. I found out that the application could indeed record some simple words. But it was impossible to record large texts because it took a long wile before it shows anything and after it shows something it was only a small part of the whole sentence.
+
+![record-demo](/docs/img/recordDemo.PNG)
+
+#### Week 2
+##### Think
+Because last week did not work out, I had to change my idea. So this week I started with a brand new idea. I want to work the podcast out even more. So here is my 4 step plan for the next week.
+
+* First of all, I need to pick a podcast that Marie likes.
+* Secondly I need to translate the podcast to sign language gifs and apply images of objects where possible.
+* Then I need to show those gifs and images inside an application one at a time to transfer the message of the podcast to Marie.
+* Lastly I need to make it fun to use, so I want to add fun transitions between gifs and images.
+
+So it would look a bit like this:
+![voorbeeld1](/static/img/voorbeeld/kom.gif)
+![voorbeeld2](/static/img/voorbeeld/jij.gif)
+![voorbeeld2](/static/img/voorbeeld/naar.gif)
+![voorbeeld2](/static/img/voorbeeld/boom.png)
+
+#### Make
+However, before I can do anything of the above plan I need to be sure if Marie likes my idea. I have to show my idea and talk about my 4 step plan and use the above image for that. I also have to make a prototype which you can see in the next image.
+
+![demo2](/docs/img/demo2.png)
+
+#### Check
+TODO:...
 
 ### Install guide
 #### Requirements
