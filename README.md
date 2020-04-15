@@ -69,11 +69,11 @@ Because last week did not work out, I had to change my idea. So this week I star
 * Then I need to show those gifs and images inside an application one at a time to transfer the message of the podcast to Marie.
 * Lastly I need to make it fun to use, so I want to add fun transitions between gifs and images.
 
-So it would look a bit like this:
-![voorbeeld1](/static/img/voorbeeld/kom.gif)
-![voorbeeld2](/static/img/voorbeeld/jij.gif)
-![voorbeeld3](/static/img/voorbeeld/naar.gif)
-![voorbeeld4](/static/img/voorbeeld/boom.png)
+So it would look a bit like this:  
+![voorbeeld1](/static/img/voorbeeld/kom.gif)  
+![voorbeeld2](/static/img/voorbeeld/jij.gif)  
+![voorbeeld3](/static/img/voorbeeld/naar.gif)  
+![voorbeeld4](/static/img/voorbeeld/boom.png)  
 
 #### Make
 However, before I can do anything of the above plan I need to be sure if Marie likes my idea. I have to show my idea and talk about my 4 step plan and use the above image for that. I also have to make a prototype which you can see in the next image.
