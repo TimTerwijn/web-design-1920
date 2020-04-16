@@ -55,7 +55,7 @@ Marie told us today that Deaf people have their own culture and are not speaking
 
 It made me also think about my fun part. If Marie and other Deaf people prefer images and sign language over regular text. It would be cool to replace the subjects and maybe other parts of a sentence with images and/or an image of sign language.
 
-#### Make
+##### Make
 I made a simple application with a speech to text functionality to test if my project is doable. I found out that the application could indeed record some simple words. But it was impossible to record large texts because it took a long wile before it shows anything and after it shows something it was only a small part of the whole sentence.
 
 ![record-demo](/docs/img/recordDemo.PNG)
@@ -75,13 +75,20 @@ So it would look a bit like this:
 ![voorbeeld3](/static/img/voorbeeld/naar.gif)  
 ![voorbeeld4](/static/img/voorbeeld/boom.png)  
 
-#### Make
+##### Make
 However, before I can do anything of the above plan I need to be sure if Marie likes my idea. I have to show my idea and talk about my 4 step plan and use the above image for that. I also have to make a prototype which you can see in the next image.
 
 ![demo2](/docs/img/demo2.png)
 
-#### Check
-TODO:...
+##### Check
+I showed my second prototype to Marie, but sadly Marie did not like my idea at all. She thought it would be a step back from my previous plan. (Which is correct.) And she also felt a bit insulted because the app was perfect for Deaf people who also have a learning disorder but because this has to be an app for Marie, it is not a useful app for her. So I have to go back to the drawing board.
+
+![demo22](/docs/img/demo22.png)
+
+##### Think
+If I want to deliver a usable prototype for Marie, with only one feedback session left, I really need to play safe now. And I have to start working on it as soon as possible. I would be wise to use feedback other students received from Marie to make my own simple (but fun) Podcast application. For me this is the best chance I have to show something useful to Marie next week.
+
+That is why I am going to work on a simple Podcast application with the help of the feedback that other students received. (I wrote them down as well.)
 
 ### Install guide
 #### Requirements
