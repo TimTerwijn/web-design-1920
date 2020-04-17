@@ -90,9 +90,9 @@ If I want to deliver a usable prototype for Marie, with only one feedback sessio
 
 That is why I am going to work on a simple Podcast application with the help of the feedback that other students received. (I wrote them down as well.)
 
-#### Make
+##### Make
 
-After that, I started working on a prototype. I know now that Marie preferred text over images and sign language, so I made another prototype. This time I want to show the story in text. One person talks (visible) and the other one is shown listening and thinking. The user of the application can see the conversation, the emotions and the thinking (in images) of the conversation.
+After that, I started working on a prototype. I know now that Marie preferred text over images and sign language, so I made another prototype. This time I want to show some sort of cartoon where the story is text based and one person talks (visible) and the other person is shown listening and thinking. The user of the application can see the conversation, the emotions and the thinking (in images) during the conversation.
 
 ![prototype3](/docs/img/prototype3.png)
 
