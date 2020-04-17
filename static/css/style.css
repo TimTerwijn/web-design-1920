@@ -14,16 +14,19 @@ section{
 section:nth-child(1){
     grid-template-columns: auto 25%;
     grid-template-rows: 24.25vh;
+    background-color: wheat;
 }
 
 section:nth-child(2){
     grid-template-columns: 100%;
     grid-template-rows: 49.5vh;
+    background-color: grey;
 }
 
 section:nth-child(3){
     grid-template-columns: 25% auto;
     grid-template-rows: 24.25vh;
+    background-color: wheat;
 }
 
 p{
