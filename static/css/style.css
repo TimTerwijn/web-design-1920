@@ -1,0 +1,13 @@
+p{
+    margin: 0;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+    min-height: 25vh;
+}
+
+section:nth-child(2){
+    min-height: 50vh;
+}
