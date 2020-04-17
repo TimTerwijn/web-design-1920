@@ -2,12 +2,30 @@ p{
     margin: 0;
 }
 
+main{
+    display: grid;
+    
+}
+
 section{
-    display: flex;
-    justify-content: space-between;
-    min-height: 25vh;
+    display: grid;
+}
+
+section:nth-child(1){
+    grid-template-columns: auto 25%;
+    grid-template-rows: 25vh;
 }
 
 section:nth-child(2){
-    min-height: 50vh;
+    grid-template-columns: 100%;
+    grid-template-rows: 50vh;
+}
+
+section:nth-child(3){
+    grid-template-columns: 25% auto;
+    grid-template-rows: 25vh;
+}
+
+img{
+    max-width: 100%;
 }
