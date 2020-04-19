@@ -1,31 +1,32 @@
 body{
-    margin: 0.5vh;
+    margin: 0;
 }
 
 main{
     display: grid;
-    
+    height: 100vh;
+    grid-template-rows: max-content auto max-content;
 }
 
 section{
     display: grid;
+    padding: 0.25rem;
 }
 
 section:nth-child(1){
     grid-template-columns: auto 25%;
-    grid-template-rows: 24.25vh;
     background-color: wheat;
 }
 
 section:nth-child(2){
     grid-template-columns: 100%;
-    grid-template-rows: 49.5vh;
     background-color: grey;
+    padding: 0;
 }
 
 section:nth-child(3){
     grid-template-columns: 25% auto;
-    grid-template-rows: 24.25vh;
+    align-items: end;
     background-color: wheat;
 }
 
