@@ -11,32 +11,35 @@ main{
 section{
     display: grid;
     padding: 0.25rem;
+    align-items: center;
+}
+
+section>*{
+    grid-row-start: 1;
 }
 
 section:nth-child(1){
     grid-template-columns: auto 25%;
     background-color: wheat;
     justify-items: end;
-    align-items: start;
 }
 
 section:nth-child(2){
     background-color: grey;
     padding: 0;
     justify-items: center;
-    align-items: center;
 }
 
 section:nth-child(3){
     grid-template-columns: 25% auto;
     background-color: wheat;
-    align-items: end;
     justify-items: start;
 }
 
 /* Jenny's portrait */
 section:nth-child(1)>article{
     text-align: center;
+    grid-column-start: 2;
 }
 
 /* Vasilis's portrait */
@@ -54,6 +57,8 @@ img{
 
 #speech1{
     margin-right: 1rem;
+    display: none;
+    grid-column-start: 1;
 }
 
 #speech2{
@@ -67,3 +72,48 @@ img{
     text-align: center;
     background-color: white;
 }
+
+.thinking{
+    grid-column-start: 1;
+}
+
+.thinking>div{
+    position: relative;
+    border: 1px solid black;
+    border-radius: 42px;
+    background-color: white;
+}
+
+.thinking>div:nth-child(1){  
+    width: 0.75rem;
+    height: 0.75rem;
+    top: 51px;
+}
+
+.thinking>div:nth-child(2){
+    width: 1rem;
+    height: 1rem;
+    top: 48px;
+    right: 18px;
+}
+
+.thinking>div:nth-child(3){
+    width: 1.25rem;
+    height: 1.25rem;
+    top: 49px;  
+    right: 29px;
+}
+
+.hidden{
+    opacity: 0;
+}
+
+@media only screen and (max-width: 459px) {
+    section:nth-child(1){
+        align-items: start;
+    }
+    
+    section:nth-child(3){
+        align-items: end;
+    }
+  }
