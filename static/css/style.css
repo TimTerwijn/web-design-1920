@@ -63,6 +63,9 @@ img{
 
 #speech2{
     margin-left: 1rem;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    /* align-self: stretch; */
 }
 
 .speech{
@@ -102,6 +105,25 @@ img{
     height: 1.25rem;
     top: 49px;  
     right: 29px;
+}
+
+.saying{
+    display: grid;
+    justify-self: stretch;
+    align-self: stretch;
+}
+
+.saying>div{
+    position: relative;
+    top: 59px;
+    right: 37px;
+    width: 0px;
+    height: 0;
+    border-top: 19px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-right: 55px solid white;
+    grid-column-start: 1;
+    grid-row-start: 1;
 }
 
 .hidden{
