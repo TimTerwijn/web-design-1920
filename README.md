@@ -96,6 +96,14 @@ After that, I started working on a prototype. I know now that Marie preferred te
 
 ![prototype3](/docs/img/prototype3.png)
 
+Some features I would like to implement are:
+* When someone talks, their lips are talking animated in a funny way.
+* The speaker his story is written in text inside a text bubble.
+* I want to show the emotions of the speaker with colours, fonts, bolt and italic. The meaning of that emotion will be explained.
+* The lips of the listener are silenced.
+* You can see the thinking of the listener.
+
+
 ### Install guide
 #### Requirements
 
