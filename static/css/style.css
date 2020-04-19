@@ -5,7 +5,7 @@ body{
 main{
     display: grid;
     height: 100vh;
-    grid-template-rows: max-content auto max-content;
+    align-content: center;
 }
 
 section{
@@ -16,17 +16,32 @@ section{
 section:nth-child(1){
     grid-template-columns: auto 25%;
     background-color: wheat;
+    justify-items: end;
+    align-items: start;
 }
 
 section:nth-child(2){
-    grid-template-columns: 100%;
     background-color: grey;
     padding: 0;
+    justify-items: center;
+    align-items: center;
 }
 
 section:nth-child(3){
     grid-template-columns: 25% auto;
     background-color: wheat;
+    align-items: end;
+    justify-items: start;
+}
+
+/* Jenny's portrait */
+section:nth-child(1)>article{
+    text-align: center;
+}
+
+/* Vasilis's portrait */
+section:nth-child(3)>article{
+    text-align: center;
 }
 
 p{
@@ -51,17 +66,4 @@ img{
     padding: 0.5rem;
     text-align: center;
     background-color: white;
-}
-
-.grid-span{
-    grid-column-end: span 2;
-}
-
-.center{
-    text-align: center;
-}
-
-.right{
-    text-align: right;
-    justify-self: end;
 }
