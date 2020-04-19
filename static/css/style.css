@@ -63,4 +63,5 @@ img{
 
 .right{
     text-align: right;
+    justify-self: end;
 }
