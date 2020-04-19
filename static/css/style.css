@@ -21,7 +21,7 @@ section>*{
 section:nth-child(1){
     grid-template-columns: auto 25%;
     background-color: wheat;
-    justify-items: end;
+    justify-items: start;
 }
 
 section:nth-child(2){
@@ -65,7 +65,6 @@ img{
     margin-left: 1rem;
     grid-column-start: 1;
     grid-row-start: 1;
-    /* align-self: stretch; */
 }
 
 .speech{
@@ -78,6 +77,8 @@ img{
 
 .thinking{
     grid-column-start: 1;
+    align-self: end;
+    justify-self: end;
 }
 
 .thinking>div{
@@ -87,24 +88,21 @@ img{
     background-color: white;
 }
 
-.thinking>div:nth-child(1){  
+.thinking>div:nth-child(1){
     width: 0.75rem;
     height: 0.75rem;
-    top: 51px;
 }
 
 .thinking>div:nth-child(2){
     width: 1rem;
     height: 1rem;
-    top: 48px;
-    right: 18px;
+    right: 13px;
 }
 
 .thinking>div:nth-child(3){
     width: 1.25rem;
     height: 1.25rem;
-    top: 49px;  
-    right: 29px;
+    right: 26px;
 }
 
 .saying{
