@@ -18,33 +18,47 @@ section>*{
     grid-row-start: 1;
 }
 
+/* Jenny's place on the screen */
 section:nth-child(1){
     grid-template-columns: auto 25%;
     background-color: wheat;
     justify-items: start;
 }
 
+/* Thought bubbel  */
 section:nth-child(2){
     background-color: grey;
     padding: 0;
     justify-items: center;
 }
 
+/* Vasilis place on the screen */
 section:nth-child(3){
     grid-template-columns: 25% auto;
     background-color: wheat;
     justify-items: start;
 }
 
+/* Jenny's speech and her bubbel */
+#speech1, #thinking1{
+    grid-column-start: 1;
+}
+
 /* Jenny's portrait */
-section:nth-child(1)>article{
+section:nth-child(1)>article:nth-child(3){
     text-align: center;
     grid-column-start: 2;
 }
 
 /* Vasilis's portrait */
-section:nth-child(3)>article{
+section:nth-child(3)>article:nth-child(1){
     text-align: center;
+    grid-column-start: 1;
+}
+
+/* Vasilis's speech and her bubbel */
+#speech2, #thinking2{
+    grid-column-start: 2;
 }
 
 p{
@@ -55,16 +69,12 @@ img{
     max-width: 100%;
 }
 
-#speech1{
+#speech1>p{
     margin-right: 1rem;
-    display: none;
-    grid-column-start: 1;
 }
 
-#speech2{
+#speech2>p{
     margin-left: 1rem;
-    grid-column-start: 1;
-    grid-row-start: 1;
 }
 
 .speech{
@@ -73,6 +83,11 @@ img{
     padding: 0.5rem;
     text-align: center;
     background-color: white;
+}
+
+.saying>*{
+    grid-column-start: 1;
+    grid-row-start: 1;
 }
 
 .thinking{
@@ -120,8 +135,6 @@ img{
     border-top: 19px solid transparent;
     border-bottom: 7px solid transparent;
     border-right: 55px solid white;
-    grid-column-start: 1;
-    grid-row-start: 1;
 }
 
 .hidden{
