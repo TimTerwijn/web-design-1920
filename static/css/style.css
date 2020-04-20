@@ -90,10 +90,16 @@ img{
     grid-row-start: 1;
 }
 
-.thinking{
+#thinking1{
     grid-column-start: 1;
     align-self: end;
     justify-self: end;
+}
+
+#thinking2{
+    grid-column-start: 2;
+    align-self: start;
+    justify-self: start;
 }
 
 .thinking>div{
@@ -103,21 +109,50 @@ img{
     background-color: white;
 }
 
-.thinking>div:nth-child(1){
+.thinking>div{
+    position: relative;
+    border: 1px solid black;
+    border-radius: 42px;
+    background-color: white;
+}
+
+#thinking1>div:nth-child(1){
     width: 0.75rem;
     height: 0.75rem;
+    bottom: 24px;
+    left: 24px;
 }
 
-.thinking>div:nth-child(2){
+#thinking1>div:nth-child(2){
     width: 1rem;
     height: 1rem;
-    right: 13px;
+    left: 2px;
+    bottom: 16px;
 }
 
-.thinking>div:nth-child(3){
+#thinking1>div:nth-child(3){
     width: 1.25rem;
     height: 1.25rem;
-    right: 26px;
+    right: 19px;
+    bottom: 6px;
+}
+
+#thinking2>div:nth-child(1){
+    width: 1.25rem;
+    height: 1.25rem;
+    bottom: 2px;
+}
+
+#thinking2>div:nth-child(2){
+    width: 1rem;
+    height: 1rem;
+    right: 10px;
+}
+
+#thinking2>div:nth-child(3){
+    width: 0.75rem;
+    height: 0.75rem;
+    right: 25px;
 }
 
 .saying{
@@ -126,7 +161,18 @@ img{
     align-self: stretch;
 }
 
-.saying>div{
+#speech1>div{
+    position: relative;
+    top: 34px;
+    left: 214px;
+    width: 0;
+    height: 0;
+    border-top: 7px solid transparent;
+    border-bottom: 19px solid transparent;
+    border-left: 55px solid white;
+}
+
+#speech2>div{
     position: relative;
     top: 59px;
     right: 37px;
@@ -149,4 +195,4 @@ img{
     section:nth-child(3){
         align-items: end;
     }
-  }
+}
