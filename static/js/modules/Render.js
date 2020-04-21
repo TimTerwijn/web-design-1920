@@ -5,6 +5,8 @@ const vasilisTalksElement = document.getElementById("speech2");
 const vasilisThinksElement = document.getElementById("thinking2");
 const thoughtPictureElement = document.getElementById("thoughtPicture");
 
+const imageFolder = "static/img/";
+
 function jennyTalks(story){
     hideJennyDialog();
 
@@ -19,6 +21,7 @@ function jennyThinks(imageUrl){
     hideJennyDialog();
 
     //add imgUrl to think image
+    imageUrl = imageFolder + imageUrl;
     thoughtPictureElement.src = imageUrl;
 
     //show new think bubbel
@@ -47,6 +50,7 @@ function vasilisThinks(imageUrl){
     hideVasilisDialog();
 
     //add imgUrl to think image
+    imageUrl = imageFolder + imageUrl;
     thoughtPictureElement.src = imageUrl;
 
     //show new think bubbel
@@ -61,9 +65,19 @@ function hideVasilisDialog(){
     vasilisThinksElement.classList.add("hidden");
 }
 
+function stopThinking(){
+    //hide think balls    
+    jennyThinksElement.classList.add("hidden");
+    vasilisThinksElement.classList.add("hidden");
+
+    //hide image
+    thoughtPictureElement.src = "";
+}
+
 export{
     jennyTalks,
     jennyThinks,
     vasilisTalks,
     vasilisThinks,
+    stopThinking,
 }

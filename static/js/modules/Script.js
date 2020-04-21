@@ -18,7 +18,16 @@ import * as render from "./Render.js";
     "a series of conversations about quality with Vasilis van Gemert and an eclectic mix of designers.";
 
     setTimeout(function(){
-        render.vasilisTalks(message)
+        render.vasilisTalks(message)      
+    }, timestamp);
+}
+
+{
+    let timestamp = 3;
+    timestamp = timestamp * 1000;
+
+    setTimeout(function(){
+        render.jennyThinks("vasilis-thought.png");       
     }, timestamp);
 }
 
@@ -34,6 +43,15 @@ import * as render from "./Render.js";
 }
 
 {
+    let timestamp = 9;
+    timestamp = timestamp * 1000;
+
+    setTimeout(function(){
+        render.stopThinking();
+    }, timestamp);
+}
+
+{
     let timestamp = 13;
     timestamp = timestamp * 1000;
     const message = 
@@ -41,6 +59,15 @@ import * as render from "./Render.js";
 
     setTimeout(function(){
         render.vasilisTalks(message)
+    }, timestamp);
+}
+
+{
+    let timestamp = 14;
+    timestamp = timestamp * 1000;
+
+    setTimeout(function(){
+        // render.jennyThinks("");
     }, timestamp);
 }
 
