@@ -6,6 +6,7 @@ main{
     display: grid;
     height: 100vh;
     align-content: center;
+    grid-template-rows: 111px 263px 131px;
 }
 
 section{
@@ -30,7 +31,6 @@ section:nth-child(2){
     background-color: grey;
     padding: 0;
     justify-items: center;
-    min-height: 263px;
 }
 
 /* Vasilis place on the screen */
