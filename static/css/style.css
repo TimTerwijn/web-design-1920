@@ -13,7 +13,7 @@ section{
     display: grid;
     padding: 0.25rem;
     align-items: center;
-    min-height: 123px;
+    min-height: 113px;
 }
 
 section>*{
@@ -66,6 +66,8 @@ section:nth-child(3)>article:nth-child(1){
 
 p{
     margin: 0;
+    font-family: sans-serif;
+    font-size: 12px;
 }
 
 img{
@@ -83,7 +85,7 @@ img{
 .speech{
     border: 1px solid black;
     border-radius: 42px;
-    padding: 0.5rem;
+    padding: 0.7rem;
     text-align: center;
     background-color: white;
 }
@@ -172,22 +174,31 @@ img{
     height: 0;
     border-top: 7px solid transparent;
     border-bottom: 19px solid transparent;
-    border-left: 52px solid white;
+    border-left: 53px solid white;
 }
 
 #speech2>div{
     position: relative;
-    top: 65px;
+    top: 55px;
     right: 37px;
     width: 0px;
     height: 0;
     border-top: 19px solid transparent;
     border-bottom: 7px solid transparent;
-    border-right: 56px solid white;
+    border-right: 55px solid white;
 }
 
 .hidden{
     opacity: 0;
+}
+
+.enthusiastic{
+    color: orange;
+    /* text-shadow: -1px 0 grey, 0 1px grey, 1px 0 grey, 0 -1px grey; */
+}
+
+.mildly{
+    color: grey;
 }
 
 *{

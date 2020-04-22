@@ -15,7 +15,7 @@ import * as render from "./Render.js";
     let timestamp = 2;
     timestamp = timestamp * 1000;
     const message = 
-    "a series of conversations about quality with Vasilis van Gemert and an eclectic mix of designers.";
+    "a series of <inline class='enthusiastic'>conversations</inline> about quality with <inline class='mildly'>Vasilis van Gemert</inline> and an eclectic mix of designers.";
 
     setTimeout(function(){
         render.vasilisTalks(message)      
@@ -35,7 +35,7 @@ import * as render from "./Render.js";
     let timestamp = 7.5;
     timestamp = timestamp * 1000;
     const message = 
-    "In this episode I have a conversation with Jenny Shen.";
+    "In this episode I have a conversation with <inline class='enthusiastic'>Jenny Shen</inline>.";
 
     setTimeout(function(){
         render.vasilisTalks(message)
@@ -95,7 +95,7 @@ import * as render from "./Render.js";
 {
     let timestamp = 30;
     timestamp = timestamp * 1000;
-    const message = "We talk about the highly successful Ladies That UX chapter that she started in Amsterdam,";
+    const message = "We talk about the highly successful Ladies That UX chapter that she started in <inline class='enthusiastic'>Amsterdam</inline>,";
 
     setTimeout(function(){
         render.vasilisTalks(message)
@@ -105,7 +105,7 @@ import * as render from "./Render.js";
 {
     let timestamp = 36;
     timestamp = timestamp * 1000;
-    const message = "and we discuss in length why it is so successful, and why it’s needed. Among many other things.";
+    const message = "and we discuss in length why it is so successful, and why it’s <inline class='enthusiastic'>needed</inline>. Among many other things.";
 
     setTimeout(function(){
         render.vasilisTalks(message)
@@ -124,7 +124,7 @@ import * as render from "./Render.js";
 {
     let timestamp = 43;
     timestamp = timestamp * 1000;
-    const message = "But as always we start with the question: What makes a thing good?";
+    const message = "But as always we start with the question: What makes a thing <inline class='enthusiastic'>good</inline>?";
 
     setTimeout(function(){
         render.vasilisTalks(message)
@@ -154,7 +154,7 @@ import * as render from "./Render.js";
 {
     let timestamp = 58;
     timestamp = timestamp * 1000;
-    const message = "So I think something can be considered good, depending on what the thing is of course,";
+    const message = "So I think something can be considered <inline class='mildly'>good</inline>, depending on what the thing is of course,";
 
     setTimeout(function(){
         render.jennyTalks(message)
@@ -165,7 +165,7 @@ import * as render from "./Render.js";
 {
     let timestamp = 64;
     timestamp = timestamp * 1000;
-    const message = "if it does what it is supposed to do. And good is like meeting expectation.";
+    const message = "if it does what it is supposed to do. And <inline class='mildly'>good</inline> is like meeting expectation.";
 
     setTimeout(function(){
         render.jennyTalks(message)
@@ -173,9 +173,9 @@ import * as render from "./Render.js";
 }
 
 {
-    let timestamp = 74;
+    let timestamp = 70;
     timestamp = timestamp * 1000;
-    const message = "Great is like exceeding expectations.";
+    const message = "<inline class='enthusiastic'>Great</inline> is like exceeding expectations.";
 
     setTimeout(function(){
         render.jennyTalks(message)
