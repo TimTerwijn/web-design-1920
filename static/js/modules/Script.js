@@ -63,15 +63,6 @@ import * as render from "./Render.js";
 }
 
 {
-    let timestamp = 14;
-    timestamp = timestamp * 1000;
-
-    setTimeout(function(){
-        // render.jennyThinks("");
-    }, timestamp);
-}
-
-{
     let timestamp = 18;
     timestamp = timestamp * 1000;
     const message = 
@@ -79,6 +70,15 @@ import * as render from "./Render.js";
 
     setTimeout(function(){
         render.vasilisTalks(message)
+    }, timestamp);
+}
+
+{
+    let timestamp = 19;
+    timestamp = timestamp * 1000;
+
+    setTimeout(function(){
+        render.jennyThinks("ladies-that-ux.png");
     }, timestamp);
 }
 
@@ -109,6 +109,15 @@ import * as render from "./Render.js";
 
     setTimeout(function(){
         render.vasilisTalks(message)
+    }, timestamp);
+}
+
+{
+    let timestamp = 41;
+    timestamp = timestamp * 1000;
+
+    setTimeout(function(){
+        render.stopThinking();
     }, timestamp);
 }
 
