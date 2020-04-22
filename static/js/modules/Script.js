@@ -1,7 +1,7 @@
 import * as render from "./Render.js";
 
 {
-    let timestamp = 0.5;
+    let timestamp = 0.25;
     timestamp = timestamp * 1000;
     const message = 
     "You're listening to The Good, The Bad, and The Interesting,";
