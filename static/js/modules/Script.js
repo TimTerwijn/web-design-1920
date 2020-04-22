@@ -122,3 +122,82 @@ import * as render from "./Render.js";
     }, timestamp);
 }
 
+{
+    let timestamp = 48;
+    timestamp = timestamp * 1000;
+    const message = "What makes a thing good?";
+
+    setTimeout(function(){
+        render.jennyTalks(message)
+    }, timestamp);
+}
+
+{
+    let timestamp = 50;
+    timestamp = timestamp * 1000;
+    const message = "So my point of view it is from the angle of UX design and by definition UX design is to solve a problem.";
+
+    setTimeout(function(){
+        render.jennyTalks(message)
+    }, timestamp);
+}
+
+{
+    let timestamp = 58;
+    timestamp = timestamp * 1000;
+    const message = "So I think something can be considered good, depending on what the thing is of course,";
+
+    setTimeout(function(){
+        render.jennyTalks(message)
+    }, timestamp);
+}
+
+
+{
+    let timestamp = 64;
+    timestamp = timestamp * 1000;
+    const message = "if it does what it is supposed to do. And good is like meeting expectation.";
+
+    setTimeout(function(){
+        render.jennyTalks(message)
+    }, timestamp);
+}
+
+{
+    let timestamp = 74;
+    timestamp = timestamp * 1000;
+    const message = "Great is like exceeding expectations.";
+
+    setTimeout(function(){
+        render.jennyTalks(message)
+    }, timestamp);
+}
+
+{
+    let timestamp = 75;
+    timestamp = timestamp * 1000;
+    const message = "And like I said it depends on what the thing is";
+
+    setTimeout(function(){
+        render.jennyTalks(message)
+    }, timestamp);
+}
+
+{
+    let timestamp = 81;
+    timestamp = timestamp * 1000;
+    const message = "and sometimes a thing is good if it achieves a greater purpose than just meeting the expectations of doing what it is supposed to do.";
+
+    setTimeout(function(){
+        render.jennyTalks(message)
+    }, timestamp);
+}
+
+{
+    let timestamp = 88;
+    timestamp = timestamp * 1000;
+
+    setTimeout(function(){
+        render.stopTalking()
+    }, timestamp);
+}
