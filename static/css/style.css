@@ -6,13 +6,14 @@ main{
     display: grid;
     height: 100vh;
     align-content: center;
-    grid-template-rows: 111px 263px 131px;
+    grid-template-rows: auto 263px auto;
 }
 
 section{
     display: grid;
     padding: 0.25rem;
     align-items: center;
+    min-height: 123px;
 }
 
 section>*{
@@ -186,6 +187,10 @@ img{
 
 .hidden{
     opacity: 0;
+}
+
+*{
+    transition: opacity 2.5s;
 }
 
 @media only screen and (max-width: 459px) {
