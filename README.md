@@ -103,6 +103,22 @@ Some features I would like to implement are:
 * The lips of the listener are silenced.
 * You can see the thinking of the listener.
 
+#### Week 3
+##### Check
+So today I showed my progress to Marie. She liked my idea and found it really cool that she can see the orange and grey colours inside the story. (She joked that she had the feeling Jenny was in love with Vasilis because she thinks about him during the intro.) I asked her what she thought about the moving lips, animated letters and more special things. But she told me that maybe I am a bit too much ambitious and that less is more during a professional conversation between Vasilis and Jenny. I asked what she preferred of those things and she told me that animated text is cool. Colour in text is second and the rest she would not like to use.
+
+* (She said that she liked when the fond size gets bigger or smaller with a transition)
+
+##### Think
+
+Things I want to work on this week
+* Text should not be synchronized. I want a fixed time between talks so that it is readable.
+* I want to show the emotions of the speaker with colours, animations, fonts, bolt and italic.
+* The meaning of an emotion should be explained with a real time legenda.
+* Text should be in the middle of e text bubble.
+
+##### Make
+
 
 ### Install guide
 #### Requirements
