@@ -105,7 +105,14 @@ Some features I would like to implement are:
 
 #### Week 3
 ##### Check
-So today I showed my progress to Marie. She liked my idea and found it really cool that she can see the orange and grey colours inside the story. (She joked that she had the feeling Jenny was in love with Vasilis because she thinks about him during the intro.) I asked her what she thought about the moving lips, animated letters and more special things. But she told me that maybe I am a bit too much ambitious and that less is more during a professional conversation between Vasilis and Jenny. I asked what she preferred of those things and she told me that animated text is cool. Colour in text is second and the rest she would not like to use.
+So today I showed my progress to Marie. She liked my idea and found it really cool that she can see the orange and grey colours inside the story.   
+
+She joked that she had the feeling Jenny was in love with Vasilis because she thinks about him during the intro.) 
+![Jenny in love](/docs/img/Jenny-in-love.png)
+
+I asked her what she thought about the moving lips, animated letters and more special things. But she told me that maybe I am a bit too much ambitious and that less is more during a professional conversation between Vasilis and Jenny. I asked what she preferred of those things and she told me that animated text is cool. Colour in text is second and the rest she would not like to use.
+
+![prototype1](/docs/img/demo3.png)
 
 * (She said that she liked when the fond size gets bigger or smaller with a transition)
 
