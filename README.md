@@ -108,6 +108,7 @@ Some features I would like to implement are:
 So today I showed my progress to Marie. She liked my idea and found it really cool that she can see the orange and grey colours inside the story.   
 
 But she also joked a bit that she had the feeling that Jenny was in love with Vasilis because Jenny thinks about him during the his introduction.  
+  
 ![Jenny in love](/docs/img/Jenny-in-love.png)
 
 I asked her what she thought about the moving lips, animated letters and the other special things. But she told me that maybe I am a bit too much ambitious and that less is more during a professional conversation like that of Vasilis and Jenny. I asked her what features she preferred and she told me that animated text like fond size transitions would be awesome. Colour in text could be a second one and she thinks it is better to use the other ideas, because less is more.  
