@@ -23,7 +23,7 @@ https://timterwijn.github.io/web-design-1920/
 * [Road map (and feedback)](#Road-map-(and-feedback))
 
 ### Progress
-This project is divided in multiple cycles. Each cycle contains three phases which are called together Think, Make and check.
+This project is divided in multiple cycles. Each cycle contains three phases which are called together Think, Make and Check.
 
 ![think-make-check](/docs/img/think-make-check.png)
 
