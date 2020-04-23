@@ -50,3 +50,7 @@ Moet de text synchroon zijn met de podcast? of kan elke tekst evenlang zijn?
 Legenda voor kleurtjes in de tekst.
 Bewegende tekst om emoties te uiten.
 Tekst boven of midden van de text bubbels
+
+kleurtjes zijn prima
+change colour text als het gesproken wordt. maar ze heeft niet echt een voorkeur. alleen als het spannend is moet dit
+alleen emojies als je die kan horen.
