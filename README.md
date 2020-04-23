@@ -20,7 +20,7 @@ Marie is born Deaf, this means that signlanguage is her main language. That is w
 * [Road map (and feedback)](#Road-map-(and-feedback))
 
 ## Installation
-
+//TODO:
 
 ## Progress
 This project is divided in multiple cycles. Each cycle contains three phases which are called together Think, Make and Check.
@@ -125,10 +125,4 @@ Things I want to work on this week
 
 #### Make
 
-
-### Install guide
-#### Requirements
-
-#### How to use
-
-### Road map (and feedback)
+### Wishlist
