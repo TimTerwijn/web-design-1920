@@ -22,6 +22,22 @@ Marie is born Deaf, this means that signlanguage is her main language. That is w
 ## Installation
 //TODO:
 
+## Exclusive Design Principles
+### Provide a unique experience
+The application needs to work perfect device of your user. In this case, Marie wanted to use the application on her phone. That is why I made a responsive mobile application. Sure you could use it on a computer too, but it looks less great. Also, Marie can not hear any sound, so I did not implement any sound of the podcast inside her application.
+
+### Study situation
+It is important to know what situation you are in to. Marie is Deaf, that means that she is born deaf and does not like to be treated as a disability. It is funny because she did not like my second prototype because I think she actually felt a bit insulted by my idea. She said that this idea was more useful for someone with a learning disorder.
+
+### Prioritize identity
+It is important to add the taste of your user to and a bit of your own to your exclusive personal project. That's why I chose a podcast of Vasilis because Marie is a designer and I thought she would enjoy listening to it, and I wanted to create something with cartoons so I added something of my own.
+
+### Ignore conventions
+By only using regular conventions when there is no other choice, your user will be more surprised with your results. I did this by thinking about something unique like all my prototypes and not making something that looks like Whats-app.
+
+### Add nonsense
+It is important to add something unexpected to your project so that users do not fall asleep while they are using it. I have added the text bulbs and thought clouds as nonsense of my product.
+
 ## Progress
 This project is divided in multiple cycles. Each cycle contains three phases which are called together Think, Make and Check.
 
