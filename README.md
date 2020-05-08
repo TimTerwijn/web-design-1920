@@ -26,7 +26,9 @@ Marie is a designer and someone who is born Deaf. This means that sign language 
 * [Road map (and feedback)](#Road-map-(and-feedback))
 
 ## Installation
-//TODO:
+Clone or download the repository $ git clone https://github.com/TimTerwijn/web-design-1920.git.
+Go to index.html in your browses.
+Enjoy the conversation.
 
 ## Exclusive Design Principles
 ### Provide a unique experience
@@ -45,7 +47,13 @@ By only using regular conventions when there is no other choice, your user will 
 It is important to add something unexpected to your project so that users do not fall asleep while they are using it. I have added the text bulbs and thought clouds as nonsense of my product.
 
 ## Progress
-This project is divided in multiple cycles. Each cycle contains three phases which are called together Think, Make and Check.
+During my last minor mobile development I had a Designing Mobile Experiences course from Anne Marleen Olthof. She learned me the Think Make Check principles. This web design course looks a lot like DME in my opinion, so I took the opportunity to use the skills I learned last semester again.
+
+Think Make Check works in cycles (Iterative). Each cycle contains three phases which are called together Think, Make and Check. For me the cycle works as follows:
+* During the Think phase you think about what you are going to do this cycle.
+* During the Make phase you make the things you thought about.
+* During the Check phase you test your work with testers to find out if your thinking was correct.
+* Repeat.  
 
 ![think-make-check](/docs/img/think-make-check.png)
 
@@ -137,14 +145,10 @@ I asked her what she thought about the moving lips, animated letters and the oth
 
 ![prototype1](/docs/img/demo3.png)
 
-#### Think
+### Wishlist
 
-Things I want to work on this week
+Now that the tests with Marie are done, I have thought about the thinks I would like to implement for the next think make check cycle.
 * Text should not be synchronized. I want a fixed time between talks so that it is readable.
 * I want to show the emotions of the speaker with colours, animations, fonts, bolt and italic.
 * The meaning of an emotion should be explained with a real time legenda.
 * Text should be in the middle of e text bubble.
-
-#### Make
-
-### Wishlist
