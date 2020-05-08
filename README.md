@@ -4,7 +4,7 @@ No more boring transcripts during a podcasts. A podcast without sound made for <
 ## Demo:
 https://timterwijn.github.io/web-design-1920/
 
-![logo](/docs/img/logo.png)
+![Logo](/docs/img/Logo.png)
 
 ## Introduction
 Marie is a designer and someone who is born Deaf. This means that sign language is her main language and that she does not consider her disability a disability because she is used to it. She did tell us that she does not understand some emotion in closed captions and podcast transcript, like "scary music" she does not understand what that means. That is why I wanted to make something for her where she could experience those emotions in a fun way. To achieve this I wanted to use colours in text. For example, If someone expresses a word with enthusiasm, I wanted to use the colour orange for that word but if someone says a word a bit serious I wanted to make that word gray.
