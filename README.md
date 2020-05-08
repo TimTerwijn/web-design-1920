@@ -7,7 +7,13 @@ https://timterwijn.github.io/web-design-1920/
 ![logo](/docs/img/logo.png)
 
 ## Introduction
-Marie is born Deaf, this means that signlanguage is her main language. That is why I made this application for her to experience the emotions of a podcast by <a href="https://vasilis.nl/">Vasilis van Gemert</a> instead of the usual boring transcript. 
+Marie is a designer and someone who is born Deaf. This means that sign language is her main language and that she does not consider her disability a disability because she is used to it. She did tell us that she does not understand some emotion in closed captions and podcast transcript, like "scary music" she does not understand what that means. That is why I wanted to make something for her where she could experience those emotions in a fun way. To achieve this I wanted to use colours in text. For example, If someone expresses a word with enthusiasm, I wanted to use the colour orange for that word but if someone says a word a bit serious I wanted to make that word gray.
+
+### User scenario TLDR
+<i>Who: Marie van Driessche, a designer and someone who is born Deaf.</i>  
+<i>What: An application where Marie can experience the emotions of certain words in a sentence.</i>  
+<i>How: By making a fun application where words are coloured, orange for enthusiasm and gray for serious words.</i>  
+<i>Why: Because it is fun and also to help Marie.</i>  
 
 ## Table of contents
 * [Install guide](#install-guide)
